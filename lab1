@@ -1,0 +1,31 @@
+print('Флаг Швейцарии:')
+for i in range(4):
+    print("\033[31m■ " * 26)
+for i in range(6):
+    print("\033[31m■ " * 11 + "\033[37m■ " * 4 + "\033[31m■ " * 11)
+for i in range(6):
+    print("\033[31m■ " * 7 + "\033[37m■ " * 12 + "\033[31m■ " * 7)
+for i in range(6):
+    print("\033[31m■ " * 11 + "\033[37m■ " * 4 + "\033[31m■ " * 11)
+for i in range(4):
+    print("\033[31m■ " * 26)
+print()
+
+print('\033[37mУзор j:')
+print('   ■ ■ ■    ' * 8)
+print(' ■       ■  ' * 8)
+print('■         ■ ' * 8)
+print('■         ■ ' * 8)
+print(' ■       ■  ' * 8)
+print('   ■ ■ ■    ' * 8)
+print()
+
+print('График функции y=x/3:')
+print('↑ y')
+for y in range(10, 0, -1):
+    x = y * 3 * 2 - 1
+    print('|' + ' ' * x + '*')
+print("* " + "- " * 10 * 3 + '→')
+print('0' + '  ' * 10 * 3 + ' x')
+print()
+
